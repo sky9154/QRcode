@@ -1,7 +1,7 @@
-# QRcode產生器
+# QRcode 產生器
 **利用 Python 當中的 MyQR module 來建立一款可變更QRcode背景圖片的程式**
 背景圖支援市面上常見的圖檔格式，且支援 git 動態圖檔，並且利用 Eel 來建立 GUI 桌面應用程式，而圖檔的來源不侷限於本地端的檔案，還支援線上的圖檔，以作為 QRcode 的背景使用。
-## 如何使用
+## 前置作業
 ### 1.安裝 Python
 在使用 QRcode 產生器之前你要先安裝 Python
 * [這是 Python 下載頁面的鏈接](https://www.python.org/downloads)
@@ -34,18 +34,21 @@ pip install opencv-python
 ```
 git clone https://github.com/ParthJadhav/Tkinter-Designer.git
 ```
-### 5.使用 QRcode 產生器
-1. 開啟程式：
+## 如何使用
+### 1. 開啟程式：
 ```
 cd 程式所在的資料夾
 python3 build.py
 ```
-2. 輸入需儲存到 QRcode 的網址：
+### 2. 輸入需儲存到 QRcode 的網址：
 ![](https://i.imgur.com/uyVYfwG.png)
 
-3. 輸入背景圖片的位置（本地端、線上皆可）：
+### 3. 輸入背景圖片的位置（本地端、線上皆可）：
 ![](https://i.imgur.com/OCLFeEE.png)
-4. 輸入儲存後的檔案名稱（如果背景圖使用 gif 的話，副檔名也需設為 gif 格式）：
+### 4. 輸入儲存後的檔案名稱（如果背景圖使用 gif 的話，副檔名也需設為 gif 格式）：
 ![](https://i.imgur.com/a8rkr7e.png)
-5. 最後點擊 **Build** 產生 QRcode（如果副檔名為 gif 格式的話，將不會顯示預覽，其餘則反之）：
+### 5. 最後點擊 **Build** 產生 QRcode（如果副檔名為 gif 格式的話，將不會顯示預覽，其餘則反之）：
 ![](https://i.imgur.com/qnY6ts6.gif)
+
+### 完整程式執行過程
+![](https://cdn.discordapp.com/attachments/858423378029314088/893890641422061568/demo.gif)
