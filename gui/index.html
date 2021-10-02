@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +7,28 @@
     <link rel="icon" type="image/x-icon" href="./images/logo.svg"/>
     <title>QRcode 產生器</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="/eel.js"></script>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="./func.js"></script>
 </head>
 <body>
     <div class="content">
         <form>
           <div class="mat-in">
-            <input type="text" name="QRcode Link" required autocomplete="off"></input>
+            <input type="url" id="link" required autocomplete="off"></input>
             <span class="bar"></span>
             <label>QRcode Link</label>
           </div>
           <div class="mat-in">
-            <input type="text" name="QRcode 圖片" required autocomplete="off"></input>
+            <input type="text" id="image" required autocomplete="off"></input>
             <span class="bar"></span>
             <label>Background Image Link</label>
           </div>
           <div class="mat-in">
-            <input type="text" name="File Name" required autocomplete="off"></input>
+            <input type="text" id="picName" required autocomplete="off"></input>
             <span class="bar"></span>
             <label>File Name</label>
           </div>
-          <button type="submit" name="submit" id="build">Build</button>
+          <button type="button" id="build" onclick="goPython();">Build</button>
         </form>
       </div>
       <div class="bg-boxes">
@@ -66,6 +67,5 @@
             <rect width="50px" height="50px" x="25px" y="25px" class="bubble" id="bub11" />
         </svg>
       </div>
-    <script src="./func.js"></script>
 </body>
 </html>
