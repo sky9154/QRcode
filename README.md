@@ -51,4 +51,4 @@ python3 build.py
 ![](https://i.imgur.com/qnY6ts6.gif)
 
 ### 完整程式執行過程
-![](https://cdn.discordapp.com/attachments/858423378029314088/893890641422061568/demo.gif)
+![](./assets/demo.gif)
