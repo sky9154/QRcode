@@ -49,6 +49,5 @@ python3 build.py
 ![](https://i.imgur.com/a8rkr7e.png)
 ### 5. 最後點擊 **Build** 產生 QRcode（如果副檔名為 gif 格式的話，將不會顯示預覽，其餘則反之）：
 ![](https://i.imgur.com/qnY6ts6.gif)
-
 ### 完整程式執行過程
-![](https://cdn.discordapp.com/attachments/858423378029314088/893884569160396820/demo.mov)
+![](https://github.com/sky0966548546/GIFtoQRcode/blob/main/assets/demo.gif)
