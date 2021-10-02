@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from MyQR import myqr
-import cv2
-import eel
 import requests
+import eel
+import cv2
 eel.init("gui") # eel.init (網頁的資料夾)
 
 @eel.expose
