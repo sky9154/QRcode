@@ -50,4 +50,4 @@ python3 build.py
 ### 5. 最後點擊 **Build** 產生 QRcode（如果副檔名為 gif 格式的話，將不會顯示預覽，其餘則反之）：
 ![](https://i.imgur.com/qnY6ts6.gif)
 ### 完整程式執行過程
-![](https://github.com/sky0966548546/GIFtoQRcode/blob/main/assets/demo.gif)
+![](https://github.com/sky0966548546/GIFtoQRcode/blob/main/assets/images/demo.gif)

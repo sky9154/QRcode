@@ -6,37 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./images/logo.svg"/>
     <title>QRcode 產生器</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script type="text/javascript" src="/eel.js"></script>
-    <script src="./func.js"></script>
 </head>
 <body>
     <div class="content">
         <form>
-          <div class="mat-in">
-            <input type="url" id="link" required autocomplete="off"></input>
-            <span class="bar"></span>
-            <label>QRcode Link</label>
-          </div>
-          <div class="mat-in">
-            <input type="text" id="image" required autocomplete="off"></input>
-            <span class="bar"></span>
-            <label>Background Image Link</label>
-          </div>
-          <div class="mat-in">
-            <input type="text" id="picName" required autocomplete="off"></input>
-            <span class="bar"></span>
-            <label>File Name</label>
-          </div>
-          <button type="button" id="build" onclick="goPython();">Build</button>
+            <div class="mat-in">
+                <input type="url" id="link" required autocomplete="off"></input>
+                <span class="bar"></span>
+                <label>QRcode Link</label>
+            </div>
+            <div class="mat-in">
+                <input type="text" id="image" required autocomplete="off"></input>
+                <span class="bar"></span>
+                <label>Background Image Link</label>
+            </div>
+            <div class="mat-in">
+                <input type="text" id="picName" required autocomplete="off"></input>
+                <span class="bar"></span>
+                <label>File Name</label>
+            </div>
+            <button type="button" id="build" onclick="goPython();">Build</button>
         </form>
-      </div>
-      <div class="bg-boxes">
-                <svg width="300px" height="100%" id="col1">
-          <rect width="150px" height="150px" x="75px" y="75px" class="bubble" id="bub1" />
+    </div>
+    <div class="bg-boxes">
+        <svg width="300px" height="100%" id="col1">
+            <rect width="150px" height="150px" x="75px" y="75px" class="bubble" id="bub1" />
         </svg>
         <svg width="200px" height="100%" id="col2">
-          <rect width="100px" height="100px" x="50px" y="50px" class="bubble" id="bub2" />
+            <rect width="100px" height="100px" x="50px" y="50px" class="bubble" id="bub2" />
         </svg>
         <svg width="260px" height="100%" id="col3">
             <rect width="130px" height="130px" x="65px" y="65px" class="bubble" id="bub3" />
@@ -66,6 +65,7 @@
         <svg width="100px" height="100%" id="col11">
             <rect width="50px" height="50px" x="25px" y="25px" class="bubble" id="bub11" />
         </svg>
-      </div>
+    </div>
+<script src="./js/func.js"></script>
 </body>
 </html>
