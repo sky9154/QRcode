@@ -30,9 +30,9 @@ pip install eel
 pip install opencv-python
 ```
 ### 4.安裝 QRcode 產生器
-從 [Github](https://github.com/sky0966548546/GIFtoQRcode) 上進行手動下載，或是使用 git 下載完整程式碼：
+從 [Github](https://github.com/sky9154/GIFtoQRcode) 上進行手動下載，或是使用 git 下載完整程式碼：
 ```
-git clone https://github.com/ParthJadhav/Tkinter-Designer.git
+git clone https://github.com/sky9154/GIFtoQRcode.git
 ```
 ## 如何使用
 ### 1. 開啟程式：
