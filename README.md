@@ -36,6 +36,7 @@ git clone https://github.com/sky9154/GIFtoQRcode.git
 ```
 ## 如何使用
 ### 1. 開啟程式：
+使用 CMD 視窗輸入下列指令：
 ```
 cd 程式所在的資料夾
 python3 build.py
